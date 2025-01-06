@@ -1,8 +1,17 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+[tool.poetry]
+name = "well-read"
+version = "0.1.0"
+description = ""
+authors = ["Rounak Sen <rounaksen225@gmail.com>"]
+readme = "README.md"
 
-[project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+sqlalchemy = "^2.0.36"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

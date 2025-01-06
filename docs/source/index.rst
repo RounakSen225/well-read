@@ -1,10 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to Well Read!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Well Read** is a virtual educational platform built on multiple verbal languages. It aims to provide
+users an option to consume educational content in multiple languages, so as to remove any limitations due
+to lack of information in a certain language. Education is a key 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
