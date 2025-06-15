@@ -11,6 +11,8 @@ to lack of information in a certain language.
 
    usage
    api
+   physics/string_theory
+   
 
 Indices and tables
 ==================
