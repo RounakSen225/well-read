@@ -1,12 +1,16 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../..'))
+
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'well-read'
+copyright = '2024, Rounak Sen'
+author = 'Rounak Sen'
 
-release = '0.1'
+release = '0.1.0'
 version = '0.1.0'
 
 # -- General configuration
@@ -17,6 +21,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',  # For Google-style docstrings
 ]
 
 intersphinx_mapping = {
@@ -33,3 +38,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for autodoc
+autodoc_member_order = 'bysource'
+autodoc_typehints = 'description'
