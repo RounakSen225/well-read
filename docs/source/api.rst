@@ -1,7 +1,8 @@
-API
-===
+API Reference
+============
 
-.. autosummary::
-   :toctree: generated
+.. toctree::
+   :maxdepth: 2
 
-   well-read
+   well_read
+   app
